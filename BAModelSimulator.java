@@ -13,12 +13,14 @@ public class BAModelSimulator {
 	public static int linky;
 	public static int[] degree;
 	public static int numberOfDegree;
-	//TEST
+	
 	public static void main(String[] argv) throws FileNotFoundException{	
 	long startTime = System.currentTimeMillis();
+	//start with 3 node 
 	int m0=3;
+	//connected to 2 nodes when new node born 
 	int m=2;
-	//number of time step t
+	//number of time step t 
 	int t=497;
 	int nodecount=m0+t;
 	node = new int[nodecount][nodecount];
