@@ -13,7 +13,7 @@ public class BAModelSimulator {
 	public static int linky;
 	public static int[] degree;
 	public static int numberOfDegree;
-	
+	//TEST
 	public static void main(String[] argv) throws FileNotFoundException{	
 	long startTime = System.currentTimeMillis();
 	int m0=3;
